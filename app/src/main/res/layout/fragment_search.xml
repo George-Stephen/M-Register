@@ -17,6 +17,14 @@
             android:layout_height="wrap_content"
             android:background="@drawable/round_edit"/>
 
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:visibility="gone"
+            android:theme="@style/Widget.AppCompat.ProgressBar"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/search_results"
@@ -25,12 +33,5 @@
             android:layout_marginTop="20dp"
             android:visibility="gone"/>
     </LinearLayout>
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:visibility="gone"
-        android:theme="@style/Widget.AppCompat.ProgressBar"/>
+
 </RelativeLayout>
