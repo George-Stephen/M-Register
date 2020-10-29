@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    cardView:cardCornerRadius="10dp"
+    android:layout_margin="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/this_destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Order_destination"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/this_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order_number"
+            android:layout_below="@id/this_destination"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/this_card_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="order_card"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

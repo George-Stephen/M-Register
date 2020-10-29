@@ -2,5 +2,5 @@ package com.iconic.services;
 
 public class Constants {
 
-    public static String base_url = "";
+    public static final String base_url = "https://registration254.herokuapp.com/";
 }
